@@ -23,3 +23,15 @@ const projects = [
         tech: "JavaScript, HTML, CSS"
     }
 ];
+
+// Render Skills
+
+const skillsContainer = document.getElementById("skills-container");
+
+skills.forEach(skill => {
+    const skillCard = document.createElement("div");
+    skillCard.classList.add("skill-card");
+    skillCard.textContent = skill;
+
+    skillsContainer.appendChild(skillCard);
+});
