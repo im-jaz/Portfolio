@@ -7,3 +7,20 @@
     --text: #2B2B2B;
     --shadow: rgba(71, 19, 28, 0.15);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+    background: linear-gradient(135deg, #FFD7E7, #FFF9FB);
+    line-height: 1.6;
+}
