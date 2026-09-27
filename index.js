@@ -35,3 +35,22 @@ skills.forEach(skill => {
 
     skillsContainer.appendChild(skillCard);
 });
+
+// Render Projects
+
+const projectsContainer = document.getElementById("projects-container");
+
+projects.forEach(project => {
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("project-card");
+
+    projectCard.innerHTML = `
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <span class="tech">${project.tech}</span>
+    `;
+
+    projectsContainer.appendChild(projectCard);
+});
+
+
