@@ -37,7 +37,7 @@ Portfolio-Website/
 1. Clone the repository:
 
 ```bash
-git clone 'git@github.com:im-jaz/Portfolio.git'
+git clone git@github.com:im-jaz/Portfolio.git
 ```
 
 2. Open the project folder.
