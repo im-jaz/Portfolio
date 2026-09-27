@@ -241,3 +241,20 @@ section {
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+/* Contact */
+
+#contact {
+    background: linear-gradient(135deg, #fffafb, #ffd7e7);
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-content p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
