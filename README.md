@@ -60,7 +60,7 @@ The website follows a modern burgundy-and-blush color palette with elegant typog
 
 View the live website here:
 
-im-jaz.github.io/Portfolio/
+https://im-jaz.github.io/Portfolio/
 
 ## Author
 
