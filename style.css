@@ -258,3 +258,17 @@ section {
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
+
+.contact-content a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
