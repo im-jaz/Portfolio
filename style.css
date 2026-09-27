@@ -24,3 +24,35 @@ body {
     background: linear-gradient(135deg, #FFD7E7, #FFF9FB);
     line-height: 1.6;
 }
+
+/* Navigation */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 249, 251, 0.85);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
