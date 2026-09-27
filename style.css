@@ -105,3 +105,18 @@ nav a:hover {
     margin-bottom: 2rem;
     max-width: 550px;
 }
+
+.hero-content a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.hero-content a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px var(--shadow);
+}
