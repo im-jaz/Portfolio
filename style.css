@@ -272,3 +272,12 @@ section {
 .contact-content a:hover {
     text-decoration: underline;
 }
+
+/* Footer */
+
+footer {
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 2rem;
+}
