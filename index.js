@@ -14,7 +14,7 @@ const skills = [
 const projects = [
     {
         title: "Personal Portfolio Website",
-        description: "A modern and responsive portfolio website showcasing my skills, projects, and contact information.",
+        description: "A modern and visually pleasing calendar app.",
         tech: "HTML, CSS, JavaScript",
         image: "cal.jpg"
     },
