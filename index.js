@@ -13,8 +13,8 @@ const skills = [
 
 const projects = [
     {
-        title: "Personal Portfolio Website",
-        description: "A modern and visually pleasing calendar app.",
+        title: "Student planner",
+        description: "A modern,aesthetic  and fucntional planner for students with all the necesssary tools includind a calendar and notes.",
         tech: "HTML, CSS, JavaScript",
         image: "cal.jpg"
     },
