@@ -16,7 +16,7 @@ const projects = [
         title: "Student planner",
         description: "A modern,aesthetic  and fucntional planner for students with all the necesssary tools includind a calendar and notes.",
         tech: "HTML, CSS, JavaScript",
-        image: "cal.jpg"
+        image: "stp.jpg"
     },
     {
         title: "Interactive To-Do App",
