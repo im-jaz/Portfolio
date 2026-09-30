@@ -205,7 +205,6 @@ section {
 #projects-container {
     max-width: 1200px;
     margin: auto;
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
