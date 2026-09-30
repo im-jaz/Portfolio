@@ -205,21 +205,18 @@ section {
 #projects-container {
     max-width: 1200px;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
     gap: 2rem;
 }
 
 .project-card {
     width: 320px;
     background: white;
-
     border-radius: 25px;
     overflow: hidden;
-
     box-shadow: 0 15px 40px rgba(71, 19, 28, 0.18);
-
+    justify-self: center;
     transition: 0.35s ease;
 }
 
