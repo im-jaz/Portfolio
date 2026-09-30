@@ -15,12 +15,14 @@ const projects = [
     {
         title: "Personal Portfolio Website",
         description: "A modern and responsive portfolio website showcasing my skills, projects, and contact information.",
-        tech: "HTML, CSS, JavaScript"
+        tech: "HTML, CSS, JavaScript",
+        image: "cal.jpg"
     },
     {
         title: "Interactive To-Do App",
         description: "A task management application that allows users to add, complete, and remove tasks efficiently.",
-        tech: "JavaScript, HTML, CSS"
+        tech: "JavaScript, HTML, CSS",
+        image: "td.jpg"
     }
 ];
 
@@ -45,9 +47,19 @@ projects.forEach(project => {
     projectCard.classList.add("project-card");
 
     projectCard.innerHTML = `
-        <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <span class="tech">${project.tech}</span>
+        <img src="${project.image}" alt="${project.title}">
+
+        <div class="project-content">
+            <div class="project-date">Featured Project</div>
+
+            <h3>${project.title}</h3>
+
+            <p>${project.description}</p>
+        </div>
+
+        <div class="project-footer">
+            <span>${project.tech}</span>
+        </div>
     `;
 
     projectsContainer.appendChild(projectCard);
