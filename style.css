@@ -206,8 +206,9 @@ section {
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap: 2rem;
+    grid-template-columns:repeat(2, 300px);
+    gap: 40px;
+    justify-content: center;
 }
 
 .project-card {
@@ -218,6 +219,7 @@ section {
     box-shadow: 0 15px 40px rgba(71, 19, 28, 0.18);
     justify-self: center;
     transition: 0.35s ease;
+    margin: auto;
 }
 
 .project-card:hover {
